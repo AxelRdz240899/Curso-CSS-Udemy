@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: coral;
+  margin: 100px;
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  transition: 1s all;
+  /* Primer parametro eje de X, el 2o es eje de las Y */
+}
+

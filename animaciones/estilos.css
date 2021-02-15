@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: coral;
+  font-size: 30px;
+  color: #fff;
+  font-family: "verdana";
+  text-align: center;
+  margin: 50px;
+    /*  
+        Pa mover el div
+        transform : translate (200px, 200px); | translate Y() | translateX() 
+    */
+    /* 
+        Para escalar el div 
+        transform: scale(1.1); | scaleY() | scaleX()
+    */
+
+    /*
+        Para deformar el div
+        transform: skewX(10deg); | grad 400 | deg 360 | rad 6.38 | turn
+    */
+
+    /*
+        Para dar vuelta 
+        transform : rotate (360deg)
+    */
+
+  transition: all 1s;
+}
+
+.box:hover {
+  transform: scale(1.2) rotate(180deg);
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 300px;
+  animation-name: moverDerecha;
+  animation-duration: 1s;
+  animation-iteration-count:1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  /* 
+    animation-name : Pa llamar a una animacion
+    animation-duration : Establecer la duración de la animación
+    animation-iteration-count: ; Cantidad de veces que se repetirá la animación
+    animation-direction : como se ejecutará la animación
+    animation-play-state: pausar o ejecutar la animacion;
+    animation-delay: 1s; delay de la animación
+    animation-fill-mode : Deja la animación en el ultimo estado donde se queda
+   */
+}
+
+@keyframes moverDerecha {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(100%);
+  }
+}
